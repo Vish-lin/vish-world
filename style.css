@@ -4,5 +4,7 @@ h1{
 }
 ul{
     display: flex;
-    margin-inline-end: 50px;
+    padding: 1000px;
+    margin:none
+    
 }
