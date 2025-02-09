@@ -13,7 +13,7 @@ header{
 .logo a{
     font-size: 24px;
     text-decoration: none;
-    color: white;
+    color: rgb(16, 5, 5);
     font-weight: bold;
 }
 .nav-menu{
@@ -25,13 +25,14 @@ header{
 }
 .nav-menu li a{
     text-decoration: none;
-    color:white ;
+    color:rgb(19, 2, 2) ;
     font-size: 18px;
     padding: 10px 15px;
     display:block;
 }
 .nav-menu li a :hover{
-    background-color:#a97df6;
+    background-color:#eae8ee;
     border-radius: 8px;
+    background-size: 100px;
 }
 
