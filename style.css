@@ -32,7 +32,7 @@ header{
 }
 .nav-menu li a :hover{
     background-color:#eae8ee;
-    border-radius: 8px;
+    border-radius: 3px;
     background-size: 100px;
 }
 
