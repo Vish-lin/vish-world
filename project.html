@@ -5,39 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            background: url(Flower-Black-HD-Backgrounds.jpg) no-repeat; max-width: 50%;
+        body {
+            background: url(Flower-Black-HD-Backgrounds.jpg) no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
-        h1{
+        h1, h2, h3 {
             color: aliceblue;
-
+            text-align: center;
         }
-        h2{
-            color: aliceblue;
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
         }
-        h3{
-            color: aliceblue;
+        .image-box {
+            width: 45%;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <h2>Vishalin</h2>
-    <h1 align="center">Our Projects</h1>
-    <h3 align="center">
-       <q>plan Your work For Today And Every Day, Then Work Your Plan</q> 
-    </h3>
-    <img src="book.jpg" alt="project 1" width="50%">
-    <section style="float:right; width: 45%; text-align: justify;">
-        <img src="book 2.jpg" alt="project2" width="90%" ">
-    </section>
-    <section>
-     <aside style="float:left;width:33%;">
-        <img src="book 3.jpeg" alt="project 3" align="center">
-     </aside>
-    </section>
-    <section>
-        <aside style="float:right;width:33%;"></aside>
-        <img src="book 4.jpg" alt="" width="50%" align="center">
-    </section>
+    <h1>Our Projects</h1>
+    <h3>Plan Your Work For Today And Every Day, Then Work Your Plan</h3>
+
+    <div class="container">
+        <div class="image-box">
+            <img src="book.jpg" alt="project 1">
+        </div>
+        <div class="image-box">
+            <img src="book 5.jpg" alt="project 2">
+        </div>
+        <div class="image-box">
+            <img src="book 3.jpeg" alt="project 3">
+        </div>
+        <div class="image-box">
+            <img src="book 7.jpg" alt="project 4">
+        </div>
+        <div class="image-box">
+            <img src="book 8.jpg" alt="project 5">
+        </div>
+    </div>
+
 </body>
 </html>
